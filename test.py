@@ -55,6 +55,7 @@ class Test(object):
 
 
 if __name__ == '__main__':
+    # Need to change!
     input1 = '/home/hhedeeplearning/share/dongbo/DATA/cod/'
     save = '/home/hhedeeplearning/share/dongbo/DATA/cod/MCIF-final1/maps/'
     pth = '/home/hhedeeplearning/share/dongbo/DATA/cod/MCIF-final1/out/Net_epoch_best.pth'
