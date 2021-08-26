@@ -62,7 +62,7 @@ python test.py
 
 ### 4.6 Evaluating your trained model:
 
-Matlab: Please refer to the work of MICCAI2020 ([link](https://github.com/DengPingFan/SINet)).
+Matlab: Please refer to the work ([link](https://github.com/DengPingFan/SINet)).
 
 Python: Please refer to the work ([link](https://github.com/zyjwuyan/SOD_Evaluation_Metrics)).
 
