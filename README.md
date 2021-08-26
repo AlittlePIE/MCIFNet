@@ -4,14 +4,6 @@
 
 ### Intoduction:
 This repository is for our paper ["Accurate Camouflaged Object Detection via Mixture Convolution and Interactive Fusion"](https://ieeexplore.ieee.org/document/9305717)
-# MCIF-Net
-
-by Bo Dong.
-
-This repo is the official implementation of ["Polyp-PVT: Polyp Segmentation with Pyramid Vision Transformers"](https://arxiv.org/pdf/2108.06932.pdf). 
-
-
-<img src="./Figs/visual.gif" width="100%" />
 
 
 
