@@ -24,7 +24,8 @@ video polyp segmentation (`0.859 mean Emeasure` and `0.045 MAE`  on COD10K), sur
 
 
 ## 2. Framework Overview
-![](https://github.com/dongbo811/MCIFNet/tree/main/Figs/net.png)
+
+![](https://github.com/dongbo811/MCIFNet/blob/main/Figs/net.png)
 
 
 ## 3. Results
