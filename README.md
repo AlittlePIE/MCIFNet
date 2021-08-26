@@ -39,8 +39,9 @@ Python 3.8
 Pytorch 1.7.1
 torchvision 0.8.2
 ```
+
 ### 4.2 Data preparation:
-Downloading training and testing datasets and move them into ./dataset/, which can be found in this [TrainDataset](https://drive.google.com/u/0/uc?id=120wKRvwXpqqeEejw60lYsEyZ4SOicR3M&export=download)/[TestDataset](https://drive.google.com/u/0/uc?id=1bTIb2qo7WXfyLgCn43Pz0ZDQ4XceO9dE&export=download).
+Downloading training and testing datasets and move them into ./dataset/, which can be found in this [TrainDataset](https://drive.google.com/u/0/uc?id=120wKRvwXpqqeEejw60lYsEyZ4SOicR3M&export=download)/[TestDataset](https://drive.google.com/u/0/uc?id=1bTIb2qo7WXfyLgCn43Pz0ZDQ4XceO9dE&export=download). Then, remember to modify the path in train.py and test.py.
 
 
 ### 4.3 Pretrained model:
