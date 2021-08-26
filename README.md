@@ -21,7 +21,6 @@ The proposed model, called **MCIF-Net** , achieves superior performance on COD t
 
 ### 3.1 Quantitative comparison
 
-![](https://github.com/dongbo811/MCIFNet/blob/main/Figs/visual1.png)
 ![](https://github.com/dongbo811/MCIFNet/blob/main/Figs/visual2.png)
 ### 3.2 PR and F-measure curves
 
