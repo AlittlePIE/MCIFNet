@@ -45,7 +45,7 @@ Downloading training and testing datasets and move them into ./dataset/, which c
 
 
 ### 4.3 Pretrained model:
-You should download the pretrained model from [Google Drive](xxxx)/[Baidu Drive](xxxx) [code:w4vk], and then put it in the './pretrained_pth' folder for initialization. 
+You should download the pretrained model from [Baidu Drive](https://pan.baidu.com/s/17o9ixUYJlE_Xr6fjzqUF0Q) [code:yf4k], and then put it in the './out' folder for initialization. 
 
 ### 4.4 Training:
 Clone the repository:
@@ -71,10 +71,10 @@ Please note that we use the Python version to evaluate in our paper.
 
 
 ### 4.7 Well trained model:
-You could download the trained model from [Google Drive](XXXX)/[Baidu Drive](XXXXX) [code:9rpy] and put the model in directory './model_pth'.
+You could download the trained model from [Baidu Drive](https://pan.baidu.com/s/1logoYpfwNWDawOGotTSnAw) [code:bmw4] and put the model in directory './MCIFNet'.
 
 ### 4.8 Pre-computed maps:
-[Google Drive](XXX)/[Baidu Drive](XXXX) [code:x3jc]
+[Baidu Drive](https://pan.baidu.com/s/1RKPgQr-9q81auZNR9_tlCQ) [code:ncte]
 
 
 
