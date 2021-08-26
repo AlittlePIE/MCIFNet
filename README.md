@@ -1,6 +1,6 @@
 # Accurate Camouflaged Object Detection via Mixture Convolution and Interactive Fusion.
 
-This repository is for our paper ["Accurate Camouflaged Object Detection via Mixture Convolution and Interactive Fusion"](https://ieeexplore.ieee.org/document/9305717)
+This repository is for our paper ["Accurate Camouflaged Object Detection via Mixture Convolution and Interactive Fusion"](hxxx)
 
 
 
