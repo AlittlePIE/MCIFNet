@@ -120,8 +120,6 @@ def train(Dataset, Network):
 
             loss2r = structure_loss(out2r, mask)
             loss3r = structure_loss(out3r, mask)
-            # loss4r = structure_loss(out2r, mask)
-            # loss5r = structure_loss(out2r, mask)
             loss   = (loss1u+loss2u)+loss2r+loss3r
 
             optimizer.zero_grad()
