@@ -29,7 +29,7 @@ video polyp segmentation (`0.859 mean Emeasure` and `0.045 MAE`  on COD10K), sur
 
 ## 3. Results
 ### 3.1 PR and F-measure curves
-![](https://github.com/DengPingFan/Polyp-PVT/blob/main/Figs/pr_curve.png)
+![](https://github.com/dongbo811/MCIFNet/blob/main/Figs/pr_curve.png)
 
 ## 4. Usage:
 ### 4.1 Recommended environment:
