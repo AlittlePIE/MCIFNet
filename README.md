@@ -83,7 +83,7 @@ You can download the trained model from [Baidu Drive](https://pan.baidu.com/s/1l
 }
 ```
 
-## 6. Acknowledgement
+## 6. Acknowledgment
 
 We are very grateful for the excellent work made by [F3Net](https://github.com/weijun88/F3Net), which provides the basis for our framework.
 
@@ -93,5 +93,5 @@ If you want to improve the usability or have any piece of advice, please feel fr
 
 ## 8. License
 
-The source code is free for research and education use only. Any comercial use should get formal permission first.
+The source code is free for research and education use only. Any commercial use should get formal permission first.
 
