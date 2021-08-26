@@ -113,11 +113,11 @@ class MIF(nn.Module):
         self.sigmoid1 = nn.Sigmoid()
         self.sigmoid2 = nn.Sigmoid()
 
-        out1v = F.relu(self.bn1v(self.conv1v(down )), inplace=True)
+        out1v = F.relu(self.bn1v(self.conv1v(down)), inplace=True)
         avg_out1= torch.mean(out1v, dim=1, keepdim=True)
         max_out1, _ = torch.max(out1v, dim=1, keepdim=True)
 
-        out1h = F.relu(self.bn2h(self.conv2h(left )), inplace=True)
+        out1h = F.relu(self.bn2h(self.conv2h(left)), inplace=True)
         avg_out2 = torch.mean(out1h, dim=1, keepdim=True)
         max_out2, _ = torch.max(out1h, dim=1, keepdim=True)
 
@@ -140,7 +140,7 @@ class MIF(nn.Module):
         if out2v.size()[2:] != s.size()[2:]:
             s = F.interpolate(s, size=out2v.size()[2:], mode='bilinear')
 
-        fuse  = s*out2v
+        fuse = s * out2v
         fuse = F.relu(self.bn3v(self.conv3v(fuse)), inplace=True)
 
         return fuse
@@ -207,8 +207,6 @@ class DMC(nn.Module):
 
     def forward(self, x):
 
-        self.conv_res(x)
-
         x2 = self.branch2(x)
         x1 = self.branch3(x)+x2
 
@@ -260,9 +258,9 @@ class MCIFNet(nn.Module):
         #four outputs of backbone
         x1, x2, x3, x4 = self.bkbone(x)
 
-        Xd1, Xd2, Xd3, Xd4= self.dmc1(x1), self.dmc2(x2), self.dmc3(x3), self.dmc4(x4)
+        Xd1, Xd2, Xd3, Xd4 = self.dmc1(x1), self.dmc2(x2), self.dmc3(x3), self.dmc4(x4)
 
-        Xa2, Xa3, Xd4, xa1= self.decoder1(Xd1, Xd2, Xd3, Xd4)
+        Xa2, Xa3, Xd4, xa1 = self.decoder1(Xd1, Xd2, Xd3, Xd4)
 
         shape = x.size()[2:] if shape is None else shape
         xa1 = F.interpolate(self.linearp1(xa1), size=shape, mode='bilinear')
