@@ -56,9 +56,9 @@ class Test(object):
 
 if __name__ == '__main__':
     # Need to change!
-    path = '/kaggle/input/tensorflow-great-barrier-reef/train_images/video_2/5774.jpg'
-    spath = '/kaggle/output/'
-    pth = '/kaggle/input/mcifnet/Net_epoch_best.pth'
+    path = '../input/tensorflow-great-barrier-reef/train_images/video_2/5774.jpg'
+    spath = './MCIFNet'
+    pth = '../input/mcifnet/Net_epoch_best.pth'
     
     t = Test(dataset, MCIFNet, path, spath, pth)
     t.save()
