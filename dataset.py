@@ -77,13 +77,13 @@ class Data(Dataset):
         self.normalize  = Normalize(mean=cfg.mean, std=cfg.std)
         self.randomcrop = RandomCrop()
         self.randomflip = RandomFlip()
-        self.resize     = Resize(352, 352)
+        self.resize     = Resize(1280, 1280)
         self.totensor   = ToTensor()
         # with open(cfg.datapath+'/'+cfg.mode+'.txt', 'r') as lines:
         self.samples = []
             # for line in lines:
                 # self.samples.append(line.strip())
-        for f in os.listdir(self.cfg.datapath + '/Imgs/'):
+        for f in os.listdir(self.cfg.datapath):
             # print(f)
             self.samples.append(f[:-4])
         # for f in os.listdir(self.cfg.datapath + '/GT/'):
@@ -93,7 +93,7 @@ class Data(Dataset):
         name  = self.samples[idx]
         # name1 = self.samples1[idx]
         # image = cv2.imread(self.cfg.datapath+'/Image/'+name+'.png', 0).astype(np.float32)
-        print(self.cfg.datapath + '/Imgs/' + name + '.png')
+        print(self.cfg.datapath + name + '.png')
         image = cv2.imread(self.cfg.datapath + '/Imgs/' + name + '.jpg')[:, :, ::-1].astype(np.float32)
         mask  = cv2.imread(self.cfg.datapath+'/GT/' +name+'.png', 0).astype(np.float32)
         shape = mask.shape
