@@ -56,12 +56,10 @@ class Test(object):
 
 if __name__ == '__main__':
     # Need to change!
-    input1 = '/home/hhedeeplearning/share/dongbo/DATA/cod/'
-    save = '/home/hhedeeplearning/share/dongbo/DATA/cod/MCIF-final1/maps/'
-    pth = '/home/hhedeeplearning/share/dongbo/DATA/cod/MCIF-final1/out/Net_epoch_best.pth'
-    for data in ['CAMO', 'COD10K']:
-        path = os.path.join(input1, data)
-        spath = os.path.join(save, data)
-        t = Test(dataset, MCIFNet, path, spath, pth)
-        t.save()
+    path = '/kaggle/input/tensorflow-great-barrier-reef/train_images/video_2/5774.jpg'
+    spath = '/kaggle/output/'
+    pth = '/kaggle/input/mcifnet/Net_epoch_best.pth'
+    
+    t = Test(dataset, MCIFNet, path, spath, pth)
+    t.save()
 
